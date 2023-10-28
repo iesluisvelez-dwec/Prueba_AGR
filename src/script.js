@@ -52,6 +52,7 @@
         }
 
     };
+    //Función que pintará en el div central debajo de las listas la información del equipo.
     const pintarInformacion=function(e){
         console.log(e.target.textContent);
     };
