@@ -74,7 +74,7 @@
         function pintarInformacion(e){
             while(divInfo.firstElementChild) divInfo.firstElementChild.remove();
             const equipoLi = document.createElement("img");
-            console.log(e.target.textContent);
+            //console.log(e.target.textContent);
             
             switch(e.target.textContent){
                 case 'Real Madrid':
