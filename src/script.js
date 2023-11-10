@@ -98,6 +98,9 @@
                 case 'Espeleño FC':
                     equipoLi.setAttribute("src","imagenes/espelenio.png");
                     break;
+                case 'Real Betis Balompié':
+                    equipoLi.setAttribute("src","imagenes/realbetis.png");
+                    break;
                 default:
                     console.log(`No se localiza la imagen del equipo ${e.target.textcontent}`);
             }
