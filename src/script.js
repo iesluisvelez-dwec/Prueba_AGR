@@ -101,6 +101,9 @@
                 case 'Real Betis Balompié':
                     equipoLi.setAttribute("src","imagenes/realbetis.png");
                     break;
+                case 'Sevilla FC':
+                    equipoLi.setAttribute("src","imagenes/sevilla.png");
+                    break;
                 default:
                     console.log(`No se localiza la imagen del equipo ${e.target.textcontent}`);
             }
